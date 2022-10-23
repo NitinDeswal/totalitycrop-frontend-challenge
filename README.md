@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Starbucks Homepage Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built Using React.js, HTML, CSS and JavaScript.
 
 ## Available Scripts
 
