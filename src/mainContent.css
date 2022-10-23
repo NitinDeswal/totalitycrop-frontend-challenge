@@ -1,0 +1,153 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 6rem 3rem 1rem;
+    row-gap: 3rem;
+    border-bottom: 2.5px solid rgb(232, 229, 229);
+  }
+  .container img {
+    width: 100%;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 13%;
+    text-align: center;
+  }
+  .light p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    letter-spacing: 0.05rem;
+  }
+  
+  .light h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.05rem;
+    color: #1e3932;
+    font-weight: 600;
+  }
+  .green p {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
+  }
+  .text h1 {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+  }
+  
+  .green {
+    background-color: #006241;
+    color: white;
+  }
+  .light {
+    background-color: #d4e9e2;
+    color: black;
+  }
+  
+  .light a {
+    border: 1px solid black;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0.3rem 1.5rem 0.4rem 1.5rem;
+    transition: all 80ms ease-in-out;
+    margin-top: 3rem;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 0.09rem;
+  }
+  .light a:hover {
+    background-color: #bbd5cd;
+  }
+  
+  .green a {
+    border: 1px solid white;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 0.3rem 1.5rem 0.4rem 1.5rem;
+    margin-top: 3rem;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 0.09rem;
+  }
+  .green a:hover {
+    background-color: #257056;
+    transition: all 80ms ease-in-out;
+  }
+ 
+  @media screen and (max-width: 1195px){
+    .green p{
+      font-size: 1.5rem;
+    }
+    .light p{
+      font-size: 1.5rem;
+    }
+    .light h2{
+      font-size: 2.2rem;
+    }
+    .text h1{
+      font-size: 2.2rem;
+      line-height: 3rem;
+    }
+  }
+  @media screen and (max-width: 998px){
+    .green a{
+      font-size: 13px;
+    }
+    .light a{
+      font-size: 13px;
+    }
+    .green p{
+      font-size: 1.1rem;
+    }
+    .light p{
+      font-size: 1.1rem;
+    }
+    .light h2{
+      font-size: 1.9rem;
+    }
+    .text h1{
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+  }
+  @media screen and (max-width: 808px) {
+    .left-navbar img {
+      width: 40px;
+      margin-left: 0;
+    }
+    .container {
+      grid-template-columns: 1fr;
+      row-gap: 0;
+      padding: 0;
+    }
+    .grid1-img {
+      margin-top: 3rem;
+    }
+  
+    .text {
+      margin-bottom: 3rem;
+      padding-top: 2rem;
+    }
+  
+    .container .grid2 {
+      grid-row: 8;
+    }
+  
+    .container .grid4 {
+      grid-row: 6;
+    }
+  }
