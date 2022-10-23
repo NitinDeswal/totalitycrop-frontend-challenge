@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/totalitycrop-frontend-challenge/static/css/main.a1a7c0ee.css",
+    "main.js": "/totalitycrop-frontend-challenge/static/js/main.87bb6901.js",
+    "static/js/787.da7bdc05.chunk.js": "/totalitycrop-frontend-challenge/static/js/787.da7bdc05.chunk.js",
+    "static/media/logo.webp": "/totalitycrop-frontend-challenge/static/media/logo.3e8de2887958b77a9a79.webp",
+    "index.html": "/totalitycrop-frontend-challenge/index.html",
+    "main.a1a7c0ee.css.map": "/totalitycrop-frontend-challenge/static/css/main.a1a7c0ee.css.map",
+    "main.87bb6901.js.map": "/totalitycrop-frontend-challenge/static/js/main.87bb6901.js.map",
+    "787.da7bdc05.chunk.js.map": "/totalitycrop-frontend-challenge/static/js/787.da7bdc05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1a7c0ee.css",
+    "static/js/main.87bb6901.js"
+  ]
+}
